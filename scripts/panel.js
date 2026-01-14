@@ -19,7 +19,7 @@ const sesionActiva = base.find((u) => u.logeado === true);
 
 // Se valida que tenga sesión activa. Si no, redirige al login.
 if (!sesionActiva) {
-  location.href = "/login.html";
+  location.href = "./login.html";
 } else {
   // Show the page once session is confirmed
   document.getElementById("app-body").classList.remove("opacity-0");
