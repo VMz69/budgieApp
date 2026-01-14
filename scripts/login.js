@@ -39,12 +39,12 @@ window.addEventListener("DOMContentLoaded", function () {
     encontrado.logeado = true;
     localStorage.setItem("basedefault", JSON.stringify(base));
 
-    location.href = "./";
+    location.href = "index.html";
   });
 
   // validar si hay sesion activa 
 
   if(sesionActiva){
-    location.href = "./"
+    location.href = "index.html"
   }
 });
